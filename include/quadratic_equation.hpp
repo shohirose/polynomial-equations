@@ -26,9 +26,7 @@ T calc_discriminant(const quadratic_equation<T>& eq) {
 
 template <typename T>
 std::array<std::complex<T>, 2> calc_roots(const quadratic_equation<T>& eq) {
-  constexpr double tolerance = 1e-10;
   const auto d = calc_discriminant(eq);
-
   using std::complex;
   using std::sqrt;
   const auto s = sqrt(complex<T>(d, 0));
