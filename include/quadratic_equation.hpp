@@ -2,6 +2,7 @@
 #define SHIROSE_QUADRATIC_EQUATION_HPP
 
 #include <array>
+#include <cmath>
 #include <complex>
 
 namespace shirose {
